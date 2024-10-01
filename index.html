@@ -36,31 +36,33 @@
     </style>
 </head>
 <body>
-
   <form>
-      <label for="usuario">Nome:</label>
-      <input name="usuario" type="text" required><br>
-      <br>
-      <label for="Email">E-mail:</label>
-      <input name="Email"type="email" required>
-      <br>
-      <label for="senha">Senha:</label>
-      <input name="senha" type="password" required minlength="6"><br>
-      <label for="senha">Senha:</label>
-      <input name="senha" type="password" required minlength="6"><br>
-      <p>
-      <label for="perfilusuarios">Perfil de Usúario</label>
-      <select name="perfilusuarios" >Perfil de Usuário</select>
-        <option value="professor">Professor</option>
-        <option value="administrador">Administrador</option>
-        <option value="jogador">Jogador</option>
-      <br>
-      <label>
-      <input name="ManterLogado" type="checkbox" value="sim">Manter Logado
-      </label>
-      </p>
-      <p>
-      <button type="submit">Login</button>
-      </p>
-    </form>
+    <label for="usuario">Nome:</label>
+    <input name="usuario" type="text" required><br>
+    <br>
+    <label for="Email">E-mail:</label>
+    <input name="Email"type="email" required>
+    <br>
+    <label for="senha">Senha:</label>
+    <input name="senha" type="password" required minlength="6"><br>
+    <label for="senha">Senha:</label>
+    <input name="senha" type="password" required minlength="6"><br>
+    <p>
+
+    <label for="perfilusuarios">Perfil de Usuário</label>
+    <select name="abacate" id="perfilusuarios"></select>
+      <option value="professor">Professor</option>
+      <option value="administrador">Administrador</option>
+      <option value="jogador">Jogador</option>
+    </select>
+    <br>
+
+    <label>
+    <input name="ManterLogado" type="checkbox" value="sim">Manter Logado
+    </label>
+    </p>
+    <p>
+    <button type="submit">Login</button>
+    </p>
+  </form>
 </body>
