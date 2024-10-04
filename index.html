@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de Login</title>
+    <title>Formulário de Cadastro</title>
     
     <style>
         body {
@@ -39,13 +39,14 @@
             border-radius: 4px;
             cursor: pointer;
             transition: background-color 0.3s;
+            width: 100%; /* Largura total para o botão */
         }
 
         button:hover {
             background-color: #45a049; /* Verde mais escuro ao passar o mouse */
         }
 
-        input {
+        input, select {
             width: 100%; /* Largura total */
             padding: 10px;
             margin: 5px 0;
@@ -55,10 +56,9 @@
             transition: border-color 0.3s;
         }
         
-        input:focus {
+        input:focus, select:focus {
             border-color: #4CAF50; /* Mudança de cor ao focar */
             outline: none; /* Remove contorno padrão */
-            align-items: center;
         }
         
         label {
@@ -66,16 +66,6 @@
             font-family: sans-serif;
             display: block; /* Faz o label ocupar uma linha inteira */
             margin: 10px 0 5px; /* Adiciona margem entre o label e o input */
-        }
-
-        select {
-            width: 100%; /* Largura total */
-            padding: 10px;
-            margin: 5px 0;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            background-color: white;
-            cursor: pointer;
         }
 
     </style>
